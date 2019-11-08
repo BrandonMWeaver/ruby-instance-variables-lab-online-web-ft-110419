@@ -1,4 +1,4 @@
-class Dog
+class Dog(dogs_name)
   def name=(dogs_name)
     @dogs_name = dogs_name
   end
@@ -7,3 +7,6 @@ class Dog
     return @dogs_name
   end
 end
+
+lassie = Dog("Lassie")
+puts Lassie.name
